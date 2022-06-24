@@ -4,3 +4,7 @@
 #### Day 1 - 
 - Space and Time complexity. ✅
 - Problems on Time complexity. ✅
+
+#### Day 2 -
+- Properties of Asymptotic Notation. ✅
+- Comparison of Various Time Complexities. ✅
