@@ -8,3 +8,5 @@
 #### Day 2 -
 - Properties of Asymptotic Notation. ✅
 - Comparison of Various Time Complexities. ✅
+
+(Day 3 - Been busy with Flutter. So will makeup Day 3 and 4 together tomorrow.) 
