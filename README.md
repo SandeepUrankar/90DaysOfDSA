@@ -14,4 +14,4 @@
 #### Day 4 (Day 3 + Day 4) -
 - Recursion concept. ✅
 - Recursion Tree. ✅
-- Recurrence Realtion (Basics). ✅
+- Recurrence Relation (Basics). ✅
