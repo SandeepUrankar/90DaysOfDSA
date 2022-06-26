@@ -10,3 +10,8 @@
 - Comparison of Various Time Complexities. ✅
 
 (Day 3 - Been busy with Flutter. So will makeup Day 3 and 4 together tomorrow.) 
+
+#### Day 4 (Day 3 + Day 4) -
+- Recursion concept. ✅
+- Recursion Tree. ✅
+- Recurrence Realtion (Basics). ✅
