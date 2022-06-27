@@ -6,8 +6,7 @@ int fact(int n)
     //Exit condition fact(1) = 1.
     if(n == 1)
         return 1;
-    int sum = n * fact(n-1);
-    return sum;
+    return n * fact(n-1);
 }
 int main()
 {
