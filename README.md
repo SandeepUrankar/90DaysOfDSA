@@ -18,4 +18,9 @@
 - Basic programs on Recursion (Fibonacci, Binary Search, etc). ✅
 
 #### Day 5 -
-- Level-1 Questions on Recursion.(Nto1, ProductOfNto1/Factorial, SumOfDigits, ReverseNumber, Palindrome) ✅
+- Level-1 Questions on Recursion. ✅
+  - Nto1.
+  - ProductOfNto1/Factorial.
+  - SumOfDigit. 
+  - ReverseNumber.
+  - Palindrome.
