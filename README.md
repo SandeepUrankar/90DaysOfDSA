@@ -24,3 +24,6 @@
   - SumOfDigit. 
   - ReverseNumber.
   - Palindrome.
+
+#### Day 6 -
+- Recursion Questions on Array. 🔄
