@@ -27,5 +27,5 @@
 
 #### Day 6 -
 - Recursion Questions on Array. 🔄
- - Checking if the given Array is Sorted.
- - Recursive Linear Search.
+  - Checking if the given Array is Sorted.
+  - Recursive Linear Search.
