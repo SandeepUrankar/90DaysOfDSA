@@ -26,9 +26,10 @@
   - Palindrome.
 
 #### Day 6 -
-- Recursion Questions on Array. 🔄
+- Recursion Questions on Array. ✅
   - Checking whether the given Array is Sorted.
   - Recursive Linear Search.
 
 #### Day 7 -
-
+- Recursion Questions on Array continued. 🔄
+  - Rotated Binary Search.
