@@ -31,5 +31,8 @@
   - Recursive Linear Search.
 
 #### Day 7 -
-- Recursion Questions on Array continued. 🔄
+- Recursion Questions on Array continued. ✅
   - Rotated Binary Search.
+
+#### Day 8 -
+- Pattern Problems with Recursion. 
