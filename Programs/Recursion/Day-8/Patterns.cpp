@@ -1,4 +1,4 @@
-//Recursive program for Rotated Binary Search.
+//Recursive program for various Patterns.
 #include <iostream>
 using namespace std;
 void pattern1(int r, int c)
