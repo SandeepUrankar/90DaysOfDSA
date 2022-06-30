@@ -35,4 +35,6 @@
   - Rotated Binary Search.
 
 #### Day 8 -
-- Pattern Problems with Recursion. 
+- Pattern Problems with Recursion. ✅ 
+- Recursive Bubble Sort. ✅
+
