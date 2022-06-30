@@ -20,7 +20,7 @@
 #### Day 5 -
 - Level-1 Questions on Recursion. ✅
   - [Nto1.](https://github.com/SandeepUrankar/90DaysOfDSA/blob/main/Programs/Recursion/Day-5/Nto1.cpp)
-  - [ProductOfNto1/Factorial.](https://github.com/SandeepUrankar/90DaysOfDSA/blob/main/Programs/Recursion/Day-5/Nto1.cpp)
+  - [ProductOfNto1/Factorial.](https://github.com/SandeepUrankar/90DaysOfDSA/blob/main/Programs/Recursion/Day-5/ProductOfNto1.cpp)
   - [SumOfDigit.](https://github.com/SandeepUrankar/90DaysOfDSA/blob/main/Programs/Recursion/Day-5/SumOfDigits.cpp)
   - [ReverseNumber.](https://github.com/SandeepUrankar/90DaysOfDSA/blob/main/Programs/Recursion/Day-5/ReverseNumber.cpp)
   - [Palindrome.](https://github.com/SandeepUrankar/90DaysOfDSA/blob/main/Programs/Recursion/Day-5/Palindrome.cpp)
@@ -28,7 +28,7 @@
 #### Day 6 -
 - Recursion Questions on Array. ✅
   - [Checking whether the given Array is Sorted.](https://github.com/SandeepUrankar/90DaysOfDSA/blob/main/Programs/Recursion/Day-6/IsArraySorted.cpp)
-  - [Recursive Linear Search.](https://github.com/SandeepUrankar/90DaysOfDSA/blob/main/Programs/Recursion/Day-6/LinearSearch.cpp])
+  - [Recursive Linear Search.](https://github.com/SandeepUrankar/90DaysOfDSA/blob/main/Programs/Recursion/Day-6/LinearSearch.cpp)
 
 #### Day 7 -
 - Recursion Questions on Array continued. ✅
