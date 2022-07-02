@@ -40,4 +40,7 @@
 - [Recursive Selection Sort.](https://github.com/SandeepUrankar/90DaysOfDSA/blob/main/Programs/Recursion/Day-8/SelectionSortRecursive.cpp) ✅
 
 #### Day 9 - 
-- Backtracking Concept and Definition. 🔄
+- Backtracking Concept and Definition. ✅
+
+#### Day 10 -
+- Subset and Subsequence Problems.
