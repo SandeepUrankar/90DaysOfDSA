@@ -1,5 +1,6 @@
 package Programs.BackTracking.Day_11;
 
+import java.util.ArrayList;
 import java.util.Scanner;
 
 public class Maze {
@@ -13,6 +14,7 @@ public class Maze {
         System.out.println("The possible number of paths are " + count);
         System.out.println("And the paths are -");
         path("", r, c);
+        System.out.println(pathRet("", r, c));
     }
 
     static int count(int r, int c) {
@@ -26,20 +28,43 @@ public class Maze {
         }
         //Number of paths from left subtree.
         int left = count(r - 1, c);
+        int mid = count(r - 1, c - 1);
         //Number of paths from right subtree.
         int right = count(r, c - 1);
-        return left + right;
+        return left + right + mid;
     }
 
     static void path(String p, int r, int c) {
         if (r == 1 && c == 1) {
             System.out.println(p);
         }
+        if (r > 1 && c > 1) {
+            path(p + "D", r - 1, c - 1); //Diagonally
+        }
         if (r > 1) {
-            path(p + "D", r - 1, c);
+            path(p + "V", r - 1, c);    //Vertically
         }
         if (c > 1) {
-            path(p + "R", r, c - 1);
+            path(p + "H", r, c - 1);    //Horizontally
         }
+    }
+
+    static ArrayList<String> pathRet(String p, int r, int c) {
+        if (r == 1 && c == 1) {
+            ArrayList<String> list = new ArrayList<>();
+            list.add(p);
+            return list;
+        }
+        ArrayList<String> list = new ArrayList<>();
+        if (r > 1 && c > 1) {
+            list.addAll(pathRet(p + "D", r - 1, c - 1)); //Diagonally
+        }
+        if (r > 1) {
+            list.addAll(pathRet(p + "V", r - 1, c));    //Vertically
+        }
+        if (c > 1) {
+            list.addAll(pathRet(p + "H", r, c - 1));    //Horizontally
+        }
+        return list;
     }
 }
