@@ -43,5 +43,9 @@
 - Backtracking Concept and Definition. ✅
 
 #### Day 10 -
-- Subset and Subsequence Problems.
-- Maze Problem for Backtracking.
+- Subset and Subsequence Problems. ✅
+- Maze Problem for Backtracking. ✅
+
+#### Day 11 -
+- Maze Problem 🔄
+  - Counting the number of paths to reach.
