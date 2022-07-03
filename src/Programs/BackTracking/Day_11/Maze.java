@@ -14,11 +14,14 @@ public class Maze {
     }
 
     static int count(int r, int c) {
+        if(r <=0 || c<=0){
+            System.out.println("Zero matrix");
+            return 0;
+        }
         //If the r or c is 1 then we have found 1 possible path. So return 1.
         if (r == 1 || c == 1) {
             return 1;
         }
-
         //Number of paths from left subtree.
         int left = count(r - 1, c);
         //Number of paths from right subtree.
