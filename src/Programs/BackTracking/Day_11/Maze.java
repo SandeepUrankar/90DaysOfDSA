@@ -11,10 +11,12 @@ public class Maze {
         int c = in.nextInt();
         int count = count(r, c);
         System.out.println("The possible number of paths are " + count);
+        System.out.println("And the paths are -");
+        path("", r, c);
     }
 
     static int count(int r, int c) {
-        if(r <=0 || c<=0){
+        if (r <= 0 || c <= 0) {
             System.out.println("Zero matrix");
             return 0;
         }
@@ -27,5 +29,17 @@ public class Maze {
         //Number of paths from right subtree.
         int right = count(r, c - 1);
         return left + right;
+    }
+
+    static void path(String p, int r, int c) {
+        if (r == 1 && c == 1) {
+            System.out.println(p);
+        }
+        if (r > 1) {
+            path(p + "D", r - 1, c);
+        }
+        if (c > 1) {
+            path(p + "R", r, c - 1);
+        }
     }
 }
