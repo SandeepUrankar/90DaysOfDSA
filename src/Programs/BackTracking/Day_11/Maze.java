@@ -15,6 +15,13 @@ public class Maze {
         System.out.println("And the paths are -");
         path("", r, c);
         System.out.println(pathRet("", r, c));
+        //Maze with Obstacles or Restriction.
+//        boolean maze[][] = {
+//                {true, true, true},
+//                {true, false, true},
+//                {true, true, true}
+//        };
+//        pathRestriction("", maze, 0, 0);
     }
 
     static int count(int r, int c) {
@@ -67,4 +74,23 @@ public class Maze {
         }
         return list;
     }
+
+    static void pathRestriction(String p, boolean[][] maze, int r, int c) {
+        if (r == maze.length - 1 && c == maze[0].length - 1) {
+            System.out.println(p);
+        }
+        if (!maze[r][c]) {
+            return;
+        }
+        if (r < maze.length - 1 && c < maze[0].length - 1) {
+            pathRestriction(p + "D", maze, r + 1, c + 1); //Diagonally
+        }
+        if (r < maze.length - 1) {
+            pathRestriction(p + "V", maze, r + 1, c);    //Vertically
+        }
+        if (c < maze[0].length - 1) {
+            pathRestriction(p + "H", maze, r, c + 1);    //Horizontally
+        }
+    }
+
 }
