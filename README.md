@@ -48,5 +48,6 @@
 
 #### Day 11 -
 - Maze Problem 🔄
-  - [Counting the number of paths to reach](https://github.com/SandeepUrankar/90DaysOfDSA/blob/main/src/Programs/BackTracking/Day_11/Maze.java).
-  - [Printing the possible paths in a maze](https://github.com/SandeepUrankar/90DaysOfDSA/blob/main/src/Programs/BackTracking/Day_11/Maze.java)
+  - [Counting the number of paths to reach.](https://github.com/SandeepUrankar/90DaysOfDSA/blob/main/src/Programs/BackTracking/Day_11/Maze.java)
+  - [Printing the possible paths in a maze.](https://github.com/SandeepUrankar/90DaysOfDSA/blob/main/src/Programs/BackTracking/Day_11/Maze.java)
+  - [Printing the possible paths in a maze with obstacles/restrictions.](https://github.com/SandeepUrankar/90DaysOfDSA/blob/main/src/Programs/BackTracking/Day_11/Maze.java)
