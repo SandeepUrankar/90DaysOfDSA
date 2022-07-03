@@ -14,10 +14,14 @@ public class Maze {
     }
 
     static int count(int r, int c) {
+        //If the r or c is 1 then we have found 1 possible path. So return 1.
         if (r == 1 || c == 1) {
             return 1;
         }
+
+        //Number of paths from left subtree.
         int left = count(r - 1, c);
+        //Number of paths from right subtree.
         int right = count(r, c - 1);
         return left + right;
     }
