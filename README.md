@@ -53,5 +53,6 @@
   - [Printing the possible paths in a maze with obstacles/restrictions. (Only R,D)](https://github.com/SandeepUrankar/90DaysOfDSA/blob/main/src/Programs/BackTracking/Day_11/Maze.java)
 
 #### Day 12 -
-- Maze Problem continued. 🔄
+- Maze Problem continued. ✅
   - Printing all the paths. (U,D,L,R)
+- N-Queens Problem. ✅
