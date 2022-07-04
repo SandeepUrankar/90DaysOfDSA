@@ -47,7 +47,11 @@
 - Maze Problem for Backtracking. ✅
 
 #### Day 11 -
-- Maze Problem 🔄
-  - [Counting the number of paths to reach.](https://github.com/SandeepUrankar/90DaysOfDSA/blob/main/src/Programs/BackTracking/Day_11/Maze.java)
-  - [Printing the possible paths in a maze.](https://github.com/SandeepUrankar/90DaysOfDSA/blob/main/src/Programs/BackTracking/Day_11/Maze.java)
-  - [Printing the possible paths in a maze with obstacles/restrictions.](https://github.com/SandeepUrankar/90DaysOfDSA/blob/main/src/Programs/BackTracking/Day_11/Maze.java)
+- Maze Problem ✅
+  - [Counting the number of paths to reach. (Only R,D)](https://github.com/SandeepUrankar/90DaysOfDSA/blob/main/src/Programs/BackTracking/Day_11/Maze.java)
+  - [Printing the possible paths in a maze. (Only R,D)](https://github.com/SandeepUrankar/90DaysOfDSA/blob/main/src/Programs/BackTracking/Day_11/Maze.java)
+  - [Printing the possible paths in a maze with obstacles/restrictions. (Only R,D)](https://github.com/SandeepUrankar/90DaysOfDSA/blob/main/src/Programs/BackTracking/Day_11/Maze.java)
+
+#### Day 12 -
+- Maze Problem continued. 🔄
+  - Printing all the paths. (U,D,L,R)
