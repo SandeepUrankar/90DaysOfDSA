@@ -56,3 +56,6 @@
 - Maze Problem continued. ✅
   - Printing all the paths. (U,D,L,R)
 - N-Queens Problem. ✅
+
+#### Day 13 -
+- N-Knights Problem. 
