@@ -58,4 +58,10 @@
 - N-Queens Problem. ✅
 
 #### Day 13 -
-- N-Knights Problem. 
+- N-Knights Problem. ✅
+
+#### Day 14 -
+##### Kind of excited on this part of the challenge.
+##### Let's Start with Arrays.
+- Arrays. 🔄
+  - The Basics, Taking Input and printing output.
