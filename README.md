@@ -63,5 +63,10 @@
 #### Day 14 -
 ##### Kind of excited on this part of the challenge.
 ##### Let's Start with Arrays.
-- Arrays. 🔄
+- Arrays. ✅
   - The Basics, Taking Input and printing output.
+
+#### Day 15 -
+- Arrays continued. 
+  - 2D Arrays.
+  - Solved a few problems in Leetcode.
