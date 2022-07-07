@@ -67,6 +67,10 @@
   - The Basics, Taking Input and printing output.
 
 #### Day 15 -
-- Arrays continued. 
+- Arrays continued. ✅ 
   - 2D Arrays.
   - Solved a few problems in Leetcode.
+
+#### Day 16 -
+- ArrayList in Java. ✅
+- Some problems on ArrayList. ✅
