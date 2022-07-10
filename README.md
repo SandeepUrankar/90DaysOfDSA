@@ -78,3 +78,6 @@
 #### Day 17 -
 - String class in Java. ✅
 - StringBuilder class in Java. ✅
+
+#### Day 18 - 
+- Linked List. 🔄
