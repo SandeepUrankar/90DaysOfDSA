@@ -81,3 +81,6 @@
 
 #### Day 18 - 
 - Linked List. 🔄
+  - [Singly Linked List.](https://github.com/SandeepUrankar/90DaysOfDSA/blob/main/src/Programs/LinkedList/Day_18/LL.java) 🔄
+    - Insert at Beginning. ✅
+    - Displaying the List. ✅
