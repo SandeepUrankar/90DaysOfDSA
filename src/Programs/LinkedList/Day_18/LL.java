@@ -6,12 +6,12 @@ public class LL {
     private Node tail;
 
     //Empty constructor while sets size = 0
-    public LL(){
+    public LL() {
         size = 0;
     }
 
     //This method inserts the data at the beginning of the linked list.
-    public void insertAtFirst(int data){
+    public void insertAtFirst(int data) {
         //Create a new node with the data given.
         Node node = new Node(data);
         //Assign the value of the head to its next.
@@ -20,7 +20,7 @@ public class LL {
         head = node;
 
         //If tail is null assign the value of head to it.
-        if (tail == null){
+        if (tail == null) {
             tail = head;
         }
         //Increment the size by 1.
@@ -28,9 +28,9 @@ public class LL {
     }
 
     //This method inserts the data at the last of the linked list.
-    public void insertAtLast(int data){
+    public void insertAtLast(int data) {
         //
-        if(tail == null){
+        if (tail == null) {
             insertAtFirst(data);
             return;
         }
@@ -49,14 +49,38 @@ public class LL {
         size++;
     }
 
+    //This method inserts the data at some index of the linked list.
+    public void insert(int data, int index) {
+        //If the list is empty.
+        if (index == 0) {
+            insertAtFirst(data);
+            return;
+        }
+        //If the index value is at the last.
+        if (index == size) {
+            insertAtLast(data);
+            return;
+        }
+        //Take a temp node to traverse till the previous node of the index.
+        Node temp = head;
+        for (int i = 1; i < index; i++) {
+            temp = temp.next;
+        }
+        //Create a new node. And pass the next value as the previous node's next.
+        Node node = new Node(data, temp.next);
+        //Update the previous node's next to newly created node.
+        temp.next = node;
+        size++;
+    }
+
     //Method for displaying the linked list.
-    public void display(){
+    public void display() {
         //Create a temp Node variable which holds the value of the head, pointing to the start of the list.
         Node temp = head;
 
         //While temp is not equals to null, that is until it reaches the last node. Print the data.
-        while(temp != null){
-            System.out.print(temp.data+"->");
+        while (temp != null) {
+            System.out.print(temp.data + "->");
             //Make the temp to point to the next node.
             temp = temp.next;
         }
@@ -64,12 +88,14 @@ public class LL {
     }
 
 
-    private class Node{
+    private class Node {
         private int data;
         private Node next;
+
         public Node(int data) {
             this.data = data;
         }
+
         public Node(int data, Node next) {
             this.data = data;
             this.next = next;
