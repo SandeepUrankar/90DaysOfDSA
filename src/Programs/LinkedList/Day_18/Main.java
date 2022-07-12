@@ -7,6 +7,7 @@ public class Main {
         list.insertAtFirst(20);
         list.insertAtFirst(15);
         list.insertAtFirst(30);
+        list.insertAtLast(40);
         list.display();
         System.out.println(list.size);
     }

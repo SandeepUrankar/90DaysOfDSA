@@ -27,6 +27,28 @@ public class LL {
         size += 1;
     }
 
+    //This method inserts the data at the last of the linked list.
+    public void insertAtLast(int data){
+        //
+        if(tail == null){
+            insertAtFirst(data);
+            return;
+        }
+        Node node = new Node(data);
+        /* Could do this. Time complexity O(n).
+        Node temp = head;
+        while(temp.next != null){
+            temp = temp.next;
+        }
+        temp.next = node;
+        */
+        //Updating the last node next to the new node.
+        tail.next = node;
+        //Assigning new node to tail.
+        tail = node;
+        size++;
+    }
+
     //Method for displaying the linked list.
     public void display(){
         //Create a temp Node variable which holds the value of the head, pointing to the start of the list.
