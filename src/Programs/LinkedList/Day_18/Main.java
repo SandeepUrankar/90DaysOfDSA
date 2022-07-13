@@ -17,5 +17,8 @@ public class Main {
         System.out.println(list.deleteLast());
         list.display();
         System.out.println("Size: " + list.size);
+        System.out.println(list.delete(1));
+        list.display();
+        System.out.println("Size: " + list.size);
     }
 }

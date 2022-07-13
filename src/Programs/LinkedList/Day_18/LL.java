@@ -118,6 +118,26 @@ public class LL {
         return data;
     }
 
+    //Method to delete at a given index.
+    public int delete(int index) {
+        //If index is 0 call deleteFirst.
+        if (index == 0) {
+            return deleteFirst();
+        }
+        //If the index is last, call deletLast.
+        if (index == size - 1) {
+            return deleteLast();
+        }
+        //Get the previous node to the index.
+        Node previous = get(index - 1);
+        //Store the data.
+        int data = previous.next.data;
+        //Point the previous to the next of current node.
+        previous.next = previous.next.next;
+        size --;
+        return data;
+    }
+
     //Method that return the node at given index
     public Node get(int index) {
         Node node = head;
