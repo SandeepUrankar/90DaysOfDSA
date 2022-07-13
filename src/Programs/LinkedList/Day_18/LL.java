@@ -87,6 +87,18 @@ public class LL {
         System.out.println("END");
     }
 
+    //Method to delete value from first.
+    public int deleteFirst(){
+        //store the data from the fist node.
+        int val = head.data;
+        //Increment the head pointer to remove the link of the first node.
+        head = head.next;
+        if (head == null){
+            tail = null;
+        }
+        size --;
+        return val;
+    }
 
     private class Node {
         private int data;

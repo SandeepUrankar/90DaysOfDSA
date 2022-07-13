@@ -92,3 +92,9 @@
   - [Singly Linked List.](https://github.com/SandeepUrankar/90DaysOfDSA/blob/main/src/Programs/LinkedList/Day_18/LL.java) 🔄
     - [Insert at End.](https://github.com/SandeepUrankar/90DaysOfDSA/blob/main/src/Programs/LinkedList/Day_18/LL.java#L31) ✅
     - [Insert at Given Index.](https://github.com/SandeepUrankar/90DaysOfDSA/blob/main/src/Programs/LinkedList/Day_18/LL.java#L53) ✅
+
+#### Day 20 -
+- Linked List continued.
+  - [Singly Linked List.](https://github.com/SandeepUrankar/90DaysOfDSA/blob/main/src/Programs/LinkedList/Day_18/LL.java) 🔄
+    - [Delete from first.](https://github.com/SandeepUrankar/90DaysOfDSA/blob/main/src/Programs/LinkedList/Day_18/LL.java#L91) ✅
+   
