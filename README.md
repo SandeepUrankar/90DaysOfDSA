@@ -101,5 +101,6 @@
     - [Delete from the given index.](https://github.com/SandeepUrankar/90DaysOfDSA/blob/main/src/Programs/LinkedList/Day_18/LL.java#L122) ✅
    
 #### Day 21 -
-- Doubly Linked List.
-  - 
+- [Doubly Linked List.](https://github.com/SandeepUrankar/90DaysOfDSA/blob/main/src/Programs/LinkedList/Day_21/DLL.java) 🔄
+  - [Insert at beginning.](https://github.com/SandeepUrankar/90DaysOfDSA/blob/main/src/Programs/LinkedList/Day_21/DLL.java#L12) ✅
+  
