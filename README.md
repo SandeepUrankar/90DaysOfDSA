@@ -107,5 +107,5 @@
   - [Insert after a given value.](https://github.com/SandeepUrankar/90DaysOfDSA/blob/main/src/Programs/LinkedList/Day_21/DLL.java#L53) ✅
   
 #### Day 22 - 
-- Circular Linked List. 🔄
+- [Circular Linked List.](https://github.com/SandeepUrankar/90DaysOfDSA/blob/main/src/Programs/LinkedList/Day_22/CLL.java) ✅
 - Interview questions on Linked List. 🔄
