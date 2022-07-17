@@ -109,3 +109,7 @@
 #### Day 22 - 
 - [Circular Linked List.](https://github.com/SandeepUrankar/90DaysOfDSA/blob/main/src/Programs/LinkedList/Day_22/CLL.java) ✅
 - Interview questions on Linked List. 🔄
+
+#### Day 23 -
+- Interview questions on Linked List continued. 
+  - Remove duplicates from sorted list.
