@@ -112,4 +112,6 @@
 
 #### Day 23 -
 - Interview questions on Linked List continued. 
-  - Remove duplicates from sorted list.
+  - [Remove duplicates from sorted list.](https://github.com/SandeepUrankar/90DaysOfDSA/blob/main/src/Programs/LinkedList/Day_22/LL.java#L166) ✅
+  - [Merge Two Sorted Lists.](https://github.com/SandeepUrankar/90DaysOfDSA/blob/main/src/Programs/LinkedList/Day_22/LL.java#L181) ✅
+  - [Detect Cycle in List.](https://github.com/SandeepUrankar/90DaysOfDSA/blob/main/src/Programs/LinkedList/Day_22/LL.java#L208) ✅

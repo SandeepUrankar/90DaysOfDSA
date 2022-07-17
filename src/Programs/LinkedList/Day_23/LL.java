@@ -168,21 +168,79 @@ public class LL {
         while (node.next != null){
             if (node.data == node.next.data){
                 node.next = node.next.next;
+                size --;
             }
             else {
                 node = node.next;
             }
         }
+        tail = node;
     }
+
+    //https://leetcode.com/problems/merge-two-sorted-lists/
+    public static LL mergeTwoSortedList(LL first, LL second){
+        Node f = first.head;
+        Node s = second.head;
+        LL ans = new LL();
+        while (f != null && s != null){
+            if (f.data <= s.data){
+                ans.insertAtLast(f.data);
+                f = f.next;
+            }
+            else{
+                ans.insertAtLast(s.data);
+                s = s.next;
+            }
+        }
+        while (f != null){
+            ans.insertAtLast(f.data);
+            f = f.next;
+        }
+        while (s != null){
+            ans.insertAtLast(s.data);
+            s = s.next;
+        }
+        return ans;
+    }
+
+    //Detect Cycles  https://leetcode.com/problems/linked-list-cycle/
+    /*
+    public class Solution {
+    public boolean hasCycle(ListNode head) {
+        ListNode fast = head;
+        ListNode slow = head;
+        while(fast != null && fast.next != null){
+            fast = fast.next.next;
+            slow = slow.next;
+            if(fast == slow){
+                return true;
+            }
+        }
+        return false;
+    }
+}
+     */
     public static void main(String[] args) {
-        LL list = new LL();
-        list.insertAtLast(1);
-        list.insertAtLast(1);
-        list.insertAtLast(2);
-        list.insertAtLast(3);
-        list.insertAtLast(3);
-        list.display();
-        list.removeDuplicates();
-        list.display();
+//        LL list = new LL();
+//        list.insertAtLast(1);
+//        list.insertAtLast(1);
+//        list.insertAtLast(2);
+//        list.insertAtLast(3);
+//        list.insertAtLast(3);
+//        list.display();
+//        list.removeDuplicates();
+//        list.display();
+        LL one = new LL();
+        LL two = new LL();
+        one.insertAtLast(1);
+        one.insertAtLast(3);
+        one.insertAtLast(5);
+        two.insertAtLast(1);
+        two.insertAtLast(2);
+        two.insertAtLast(4);
+        two.insertAtLast(6);
+        two.insertAtLast(7);
+        LL ans = LL.mergeTwoSortedList(one, two);
+        ans.display();
     }
 }
