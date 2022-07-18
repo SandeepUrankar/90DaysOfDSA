@@ -115,3 +115,5 @@
   - [Remove duplicates from sorted list.](https://github.com/SandeepUrankar/90DaysOfDSA/blob/main/src/Programs/LinkedList/Day_23/LL.java#L166) ✅
   - [Merge Two Sorted Lists.](https://github.com/SandeepUrankar/90DaysOfDSA/blob/main/src/Programs/LinkedList/Day_23/LL.java#L181) ✅
   - [Detect Cycle in List.](https://github.com/SandeepUrankar/90DaysOfDSA/blob/main/src/Programs/LinkedList/Day_23/LL.java#L208) ✅
+
+Day 24 - Have Exams... so tomorrow.
