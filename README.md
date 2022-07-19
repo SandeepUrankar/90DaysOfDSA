@@ -117,3 +117,4 @@
   - [Detect Cycle in List.](https://github.com/SandeepUrankar/90DaysOfDSA/blob/main/src/Programs/LinkedList/Day_23/LL.java#L208) ✅
 
 Day 24 - Have Exams... so tomorrow.
+Day 25 - Last exam.. Tomorrow will continue.
