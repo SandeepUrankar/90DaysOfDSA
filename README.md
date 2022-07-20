@@ -118,3 +118,6 @@
 
 Day 24 - Have Exams... so tomorrow.
 Day 25 - Last exam.. Tomorrow will continue.
+
+#### Day 24 -
+Let's continue with the interview questions on Linked List.
