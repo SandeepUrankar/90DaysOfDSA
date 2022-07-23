@@ -128,3 +128,6 @@ Let's continue with the interview questions on Linked List.
 
 #### Day 26 -
 - Solved some problems on LinkedList in Leetcode and HackerRank. 
+
+#### Day 27 -
+- Continuing the Linked List Questions. 
