@@ -9,7 +9,9 @@ public class Main {
         list.insertAtLast(2);
         list.insertAtLast(1);
         list.display();
-        list.reverseRecursive(list.head);
+//        list.reverseRecursive(list.head);
+        list.reverse();
         list.display();
+
     }
 }
