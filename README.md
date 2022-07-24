@@ -133,6 +133,6 @@ Let's continue with the interview questions on Linked List.
 - Continuing the Linked List Questions. 
 
 #### Day 28 -
-- [Reversing a Linked List. (Recursively)](https://github.com/SandeepUrankar/90DaysOfDSA/blob/main/src/Programs/LinkedList/Day_25/HappyNumber.java#L153)✅
-- [Reversing a Linked List. (Iteratively)](https://github.com/SandeepUrankar/90DaysOfDSA/blob/main/src/Programs/LinkedList/Day_25/HappyNumber.java#L169)✅
+- [Reversing a Linked List. (Recursively)](https://github.com/SandeepUrankar/90DaysOfDSA/blob/main/src/Programs/LinkedList/Day_28/ReverseLL.java#L153)✅
+- [Reversing a Linked List. (Iteratively)](https://github.com/SandeepUrankar/90DaysOfDSA/blob/main/src/Programs/LinkedList/Day_28/ReverseLL.java#L169)✅
 - A leetcode question. ✅
