@@ -131,3 +131,6 @@ Let's continue with the interview questions on Linked List.
 
 #### Day 27 -
 - Continuing the Linked List Questions. 
+
+#### Day 26 -
+- Reversing a Linked List. (Recursively)
