@@ -132,5 +132,5 @@ Let's continue with the interview questions on Linked List.
 #### Day 27 -
 - Continuing the Linked List Questions. 
 
-#### Day 26 -
-- Reversing a Linked List. (Recursively)
+#### Day 28 -
+- [Reversing a Linked List. (Recursively)](https://github.com/SandeepUrankar/90DaysOfDSA/blob/main/src/Programs/LinkedList/Day_25/HappyNumber.java#L153)✅
